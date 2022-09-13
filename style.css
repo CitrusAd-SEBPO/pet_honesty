@@ -41,6 +41,15 @@
     background-color: Transparent;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.citurs_borderless_button a{
+    text-decoration: underline;
+    color: #001952;
+}
 
 
 /* -----------  Universal End  ----------- */
@@ -249,7 +258,7 @@
     padding: 0 10%;
     height: 100%;
     margin-top: 70px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 
 .citrus_range_row{
@@ -471,8 +480,6 @@
 /*------------------------- 
 |* Responsive Style Start *|
 --------------------------*/
-
-
 
 @media screen and (max-width:425px) {
     /* Desktop Hero Banner */
@@ -840,6 +847,12 @@
         margin-bottom: 10px;
     }
 
+    /* Ranges */
+    .citrus_petHonesty_ranges {
+        
+        margin-top: 0;
+    }
+
     /* Health and Wellness */
     .citrus_health_and_wellness_details {
         flex-wrap: nowrap;
@@ -855,32 +868,33 @@
     }
 
     .citrus_health_and_wellness_contents{
-        width: 480px;
+        /* width: 480px; */
+        width: 350px;
     }
 
     .citrus_health_and_wellness_content_title {
-        font-size: 24px;
+        font-size: 18px;
         line-height: 24px;
+        margin-bottom: 5px;
     }
 
     .citrus_health_and_wellness_content_info {
-        font-size: 19px;
+        font-size: 16px;
         line-height: 24px;
-        margin-bottom: 60px;
-        width: 412px;
+        margin-bottom: 69px;
     }
 
     #citrus_EasyToUse {
-        width: 420px;
+        width: 340px;
     }
 
-    #citrusPetParent{
-        width: 460px;
+    #citrusPetParent {
+        width: 345px;
     }
     
 
     /* Taste your pet Start */
-/*     
+    
     .citrus_pethonesty_taste{
         max-width: 100%;
     }
@@ -921,8 +935,11 @@
         width: 500px; 
         height: 250px; 
         margin-top: -130px;
-        /* margin-left: 30px; */
+    }
+        
     
+   
+   
 
     .citrus_petHonesty_taste_mobile{
         display: none;
@@ -1151,7 +1168,15 @@
     }
     .citrus_multivitamin_card_logo {
         margin-top: 20px;
-    }   
+    } 
+    /* Range options */
+    .citrus_range_options_desktop{
+        display: block;
+    }
+    .citrus_range_options{
+        display: none;
+        
+    }  
 }
 
 @media screen and (min-width:1440px) {
@@ -1217,6 +1242,21 @@
         margin-bottom: 30px;
     }
 
+    /* Health and Wellness */
+    .citrus_health_and_wellness_terms{
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .citrus_health_and_wellness_terms_line{
+        margin-left: -10px;
+    }
+    #citrus_EasyToUse {
+        width: 236px;
+    }
+    .citrus_health_and_wellness_content_info {
+        width: 239px;
+    }
+
     /* Taste Youtube Content */
     .citrus_pet_video_content{
         width: 320px;
@@ -1266,6 +1306,9 @@
     .citrus_pet_video_content{
         width: 425px;
         overflow: hidden;
+    }
+    .citrus_pet_video_content iframe{
+        width: 425px;
     }
 
     .citrus_taste_contents{
