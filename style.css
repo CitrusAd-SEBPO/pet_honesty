@@ -46,7 +46,7 @@ a{
     color: white;
 }
 
-.citurs_borderless_button a{
+a .citurs_borderless_button{
     text-decoration: underline;
     color: #001952;
 }
@@ -835,12 +835,25 @@ a{
 @media screen and (min-width:769px) and (max-width:1024px){
     .citrus_desktop_banner{
         height: 100%;
+        background-size: contain;
     }
     .citrus_hero_text_tab{
         margin-left: 45px;
     }
-    .citrus_hero_logo img{
+    /* .citrus_hero_logo img{
         padding: 10px 0;
+    } */
+
+    .citrus_hero_title {
+        font-size: 24px;
+        line-height: 25px;
+        margin: 2px 0;
+    }
+
+    .citrus_hero_info {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 10px;
     }
 
     .citurs_caps_button{
