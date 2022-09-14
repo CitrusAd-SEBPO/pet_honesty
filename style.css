@@ -1061,7 +1061,16 @@ a .citurs_borderless_button{
     }
 }
 
+@media screen and (min-width:1025px) and (max-width:1426px) {
+    .citrus_pethonesty_container {
+        width: 90%;
+    }
+    .citrus_range_card {
+        width: 300px;
+    }
+}
 @media screen and (min-width:922px) and (max-width:1024px) {
+    
     .citrus_health_and_wellness_content_info {
         margin-bottom: 55px;
     }
@@ -1113,6 +1122,8 @@ a .citurs_borderless_button{
         width: 100%;
     }
 }
+
+
 
 
 
