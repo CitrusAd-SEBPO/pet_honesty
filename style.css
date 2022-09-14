@@ -602,6 +602,7 @@ img{
     /* Health and Wellness */
     .citrus_health_and_wellness{
         /* overflow: hidden; */
+        padding-bottom: 30px;
     }
     .citrus_health_and_wellness_heading p{
         /* width: 182px; */
@@ -619,15 +620,15 @@ img{
         max-width: 100%;
     }
     .citrus_health_and_wellness_content_title{
-        font-size: 18px;
-        line-height: 30px;
-        margin-bottom: 10px;
+        font-size: 22px;
+        line-height: 25px;
+        margin-bottom: 5px;
     }    
     .citrus_health_and_wellness_content_info{
         font-size: 16px;
         line-height: 18px;
         width: 243px;
-        margin-bottom: 45px;
+        margin-bottom: 25px;
     }
     #citrus_EasyToUse_title{
         line-height: 20px;
@@ -803,7 +804,7 @@ img{
         line-height: 22px;
         margin: 5px 0;
     }
-    
+
     .citrus_taste_contents_video iframe{
         margin-top: -30px;
     }
@@ -979,6 +980,18 @@ img{
     .citrus_health_and_wellness_content_info {
         width: 239px;
     }
+
+    .citrus_health_and_wellness_content_title{
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 5px;
+    }    
+    .citrus_health_and_wellness_content_info{
+        font-size: 16px;
+        line-height: 18px;
+        width: 243px;
+        margin-bottom: 18px;
+    }
 }
 
 /* Daily Multivitamin 375 */
@@ -990,6 +1003,14 @@ img{
     .citrus_multivitamin_card{
         margin-top: -190px;
     } 
+
+    /* Health and Wellness */
+    .citrus_health_and_wellness_content_title{
+        font-size: 20px;
+    }    
+    .citrus_health_and_wellness_content_info{
+        margin-bottom: 22px;
+    }
 }
 
 
