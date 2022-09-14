@@ -799,10 +799,11 @@ img{
 
     /* Taste */
    .citrus_taste_content_title h3{
-        font-size: 16px;
+        font-size: 15px;
         line-height: 22px;
         margin: 5px 0;
     }
+    
     .citrus_taste_contents_video iframe{
         margin-top: -30px;
     }
