@@ -157,8 +157,6 @@ a .citurs_borderless_button{
 
 .citrus_ingredients_items{
     width: 1147px;
-    /* height: 374.15px; */
-    /* height: 320px; */
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -178,7 +176,8 @@ a .citurs_borderless_button{
 .citrus_ingredients_item{
     /* border: 1px solid salmon; */
     text-align: center;
-    height: 273px;
+    /* height: 273px; */
+    margin-bottom: 40px;
 }
 
 .citrus_ingredient_card{
