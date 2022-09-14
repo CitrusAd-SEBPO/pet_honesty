@@ -1061,6 +1061,58 @@ a .citurs_borderless_button{
     }
 }
 
+@media screen and (min-width:922px) and (max-width:1024px) {
+    .citrus_health_and_wellness_content_info {
+        margin-bottom: 55px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:921px) {     
+    /* Hero */
+    .citrus_daily_multivitamin_desktop {
+        background-size: cover;
+        background-position: center;
+    }
+    .citrus_hero_logo img {
+        width: 150px;
+    }
+    .citrus_hero_text_tab hr {
+        width: 200px;
+    }
+    .citrus_hero_title {
+        font-size: 20px;
+        line-height: 26px;
+        margin: 0 0;
+    }
+    .citrus_hero_info {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    /* Health and Wellness */
+    .citrus_health_and_wellness_details {
+        flex-wrap: wrap;
+    }
+    .citrus_health_and_wellness_lifestyle img:first-of-type {
+        margin-bottom: 20px;
+    }
+    .citrus_health_and_wellness_terms_line img {
+        height: 385px;
+    }
+    .citrus_health_and_wellness_content_title {
+        font-size: 22px;
+    }
+    .citrus_health_and_wellness_content_info {
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 35px;
+    }
+    #citrusPetParent {
+        width: 400px;
+    }
+    .citrus_health_and_wellness_contents {
+        width: 100%;
+    }
+}
 
 
 
