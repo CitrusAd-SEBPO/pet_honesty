@@ -20,6 +20,7 @@
 
 .citrus_pethonesty_container{
     width: 80%;
+    /* width: 1100px; */
     margin: 0 auto;
 }
 
@@ -49,18 +50,21 @@
 }
 
 a{
-    text-decoration: none;
-    color: white;
+    color: #001952;
+    text-decoration: underline;
+    font-family: "PetcoCircularTT-Bold";
+    /* font-weight: bold; */
+    font-size: 16px;
 }
 
 a .citurs_borderless_button{
-    text-decoration: underline;
     color: #001952;
 }
 
 img{
-    max-width: 100%;
+    width: 100%;
 }
+
 
 
 /* -----------  Universal End  ----------- */
@@ -96,10 +100,11 @@ img{
     margin-left: 144px;
 }
 
-/* .citrus_hero_logo{
+.citrus_hero_logo img {
     width: 313px;
-    height: 76.29px;
-} */
+    /* height: 76.29px; */
+    object-fit: contain;
+}
 
 .citrus_hero_text_tab hr{
     width: 312px;
@@ -110,7 +115,7 @@ img{
     font-family: Petco Circular CAP;
     color: black;
     font-size: 30px;
-    line-height: 32px;
+    line-height: initial;
     margin: 20px 0;
 }
 
@@ -144,9 +149,9 @@ img{
 }
 
 .citrus_ingredients_items{
-    width: 1147px;
+    /* width: 1147px; */
     /* height: 374.15px; */
-    height: 320px;
+    /* height: 320px; */
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -155,6 +160,8 @@ img{
     overflow-x: scroll;
     overflow: -moz-scrollbars-none; /*-moz-(Firefox)*/
     -ms-overflow-style: none;  /*-ms- (Internet Explorer +10)*/
+    padding-bottom: 80px;
+    overflow-y: hidden;
 }
 
 .citrus_ingredients_items::-webkit-scrollbar {
@@ -174,9 +181,11 @@ img{
 }
 .citrus_ingredient_card_image img{
     margin-top: 0%;
-    width: 167px;
-    height: 167px;
-    margin: auto;
+    /* width: 167px; */
+    /* height: 167px; */
+    /* margin: auto; */
+    padding: 10px;
+    object-fit: none;
 }
 
 .citrus_ingredient_card_title h3{
@@ -269,7 +278,7 @@ img{
     width: 100%;
     /* padding: 0 10%; */
     height: 100%;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-bottom: 40px;
 }
 
@@ -310,12 +319,13 @@ img{
 
 .citrus_range_card{
     width: 327px;
-    height: 441px;
+    /* height: 441px; */
     /* border: 1px solid salmon ;  */
 }
 
 .citus_range_card_img img{
     max-width: 100%;
+    padding: 20px;
 }
 
 .citrus_range_card_body{
@@ -327,7 +337,7 @@ img{
     font-weight: bold;
     font-size: 20px;
     line-height: 25px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 /* ------ Range Options End ------ */
@@ -424,12 +434,23 @@ img{
     width: 100%;
 }
 
-.citrus_taste_container_contets, .citrus_taste_contents_content{
+.citrus_taste_container_contets{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.citrus_taste_contents_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
 }
 
 .citrus_taste_content_title h3{
@@ -452,6 +473,10 @@ img{
     order: 2;
 }
 
+.citrus_taste_content_image img{
+    width: 100%;
+}
+
 .citrus_taste_content_image img:first-of-type{
     display: block;
 }
@@ -460,8 +485,16 @@ img{
     display: none;
 }
 
+.citrus_taste_contents_video{
+    width: 100%;
+    padding: 0 20px;
+}
+
+
 .citrus_taste_contents_video iframe{
-    margin-top: -30px;
+    width: 100%;
+    margin-top: -60px;
+    height: 260px;
 } 
 
 
@@ -614,7 +647,7 @@ img{
     }
     .citrus_health_and_wellness_terms{
         padding: 5%;
-        padding-bottom: 0;
+        padding-bottom: 40px;
     }
     .citrus_health_and_wellness_lifestyle img{
         max-width: 100%;
@@ -636,10 +669,14 @@ img{
     #citrus_EasyToUse{
         width: 260px;
     }
+    
 
     /* Taste your pet Start */
     .citrus_taste_container{
         margin-top: 230px;
+    }
+    .citrus_taste_container_contets {
+        padding: 0;
     }
     .citrus_taste_container_items{
         width: 100%;
@@ -663,17 +700,19 @@ img{
         width: 60%;
         margin: 0 auto;
     }
-
-    .citrus_taste_contents_video iframe{
-        margin-top: -1px;
-    }
     .citrus_taste_content_image img:first-of-type{
         display: none;
     }
     .citrus_taste_content_image img:nth-child(2){
         display: block;
     }
-
+    .citrus_taste_contents_video{
+        padding: 0 ;
+    }
+    .citrus_taste_contents_video iframe {
+        height: 238px;
+        margin-top: -33px;
+    }
 
     
 }
@@ -713,6 +752,12 @@ img{
         width: 80%;
         margin: 0 auto;
     }
+    .citrus_ingredient_card {
+        width: 240px;
+    }
+    .citrus_ingredeients_tab_contents p {
+        font-size: 28px;
+    }
 
     /* Range Options */
     .citrus_pethonesty_container{
@@ -744,7 +789,7 @@ img{
         width: 384px;
     }
     .citrus_health_and_wellness_terms_line img{
-        height: 340px;
+        /* height: 100%; */
     }
     .citrus_health_and_wellness_content_title {
         margin-bottom: 0;
@@ -756,7 +801,7 @@ img{
     .citrus_health_and_wellness_content_info {
         font-size: 16px;
         line-height: 20px;
-        margin-bottom: 35px;
+        margin-bottom: 25px;
         width: 280px;
     }
     #citrus_EasyToUse {
@@ -805,8 +850,13 @@ img{
         margin: 5px 0;
     }
 
+    .citrus_taste_contents_video iframe {
+        margin-top: -60px;
+        height: 192px;
+    }
+
     .citrus_taste_contents_video iframe{
-        margin-top: -30px;
+        margin-top: -45px;
     }
 
 }
@@ -819,19 +869,16 @@ img{
     .citrus_hero_text_tab{
         margin-left: 45px;
     }
-
     .citrus_hero_title {
         font-size: 24px;
         line-height: 25px;
         margin: 2px 0;
     }
-
     .citrus_hero_info {
         font-size: 16px;
         line-height: 22px;
         margin-bottom: 10px;
     }
-
     .citurs_caps_button{
         margin-bottom: 10px;
     }
@@ -847,6 +894,11 @@ img{
     .citrus_petHonesty_ranges {
         margin-top: 0;
     }
+    .citrus_range_card {
+        width: 250px;
+        height: 100%;
+    }
+    
 
     /* Health and Wellness */
     .citrus_health_and_wellness_details {
@@ -893,12 +945,28 @@ img{
         line-height: 22px;
         margin: 5px 0;
     }
+    .citrus_taste_contents_video iframe {
+        margin-top: -60px;
+        height: 205px;
+    }
     .citrus_taste_contents_video iframe{
-        margin-top: -30px;
+        margin-top: -55px;
     }
     
 }
 
+/* @media screen and (min-width:769px) and (max-width:1024px) {
+    .citrus_pethonesty_container {
+        width: 65%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:1025px) and (max-width:1440px) {
+    .citrus_pethonesty_container {
+        width: 65%;
+        margin: 0 auto;
+    }
+} */
 
 @media screen and (min-width:769px) and (max-width:1334px) {
     .citrus_daily_multivitamin_desktop{
@@ -941,7 +1009,23 @@ img{
     
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1440px) and (max-width:2500px) {
+    .citrus_hero_banner{
+        /* background-position:initial ; */
+        /* height: 450px; */
+    }
+    .citrus_hero_text_tab {
+        padding-top: 0px;
+    }
+    .citrus_hero_title{
+        font-size: 30px;
+        line-height: initial;
+    }
+
+    .citrus_ingredients_items {
+        width: 100%;
+    }
+
     .citrus_daily_multivitamin_desktop{
         background-size: 100%;
         position: center;
@@ -949,11 +1033,57 @@ img{
     .citrus_multivitamin_card_logo {
         margin-top: 70px;
     } 
-    
-    .citrus_range_row{
-        flex-wrap: nowrap;
+    .citrus_range_row {
+        flex-wrap: wrap;
     }
+    .citrus_range_card {
+        width: 450px;
+        /* height: 441px; */
+        /* border: 1px solid salmon; */
+    }
+    .citrus_range_card {
+        /* width: 360px; */
+        width: 240px;
+        /* height: 300px; */
+    }
+    .citrus_range_row{
+        flex-wrap: wrap;
+    }
+    
 }
+
+@media screen and (min-width:1441px) {
+    .citrus_pethonesty_container {
+        width: 60%;
+    }
+    .citrus_hero_banner{
+        height: 450px;
+    }
+    .citrus_hero_text_tab {
+        padding-top: 100px;
+    }
+    .citrus_hero_text_tab hr {
+        width: 313px;
+    }
+    .citrus_hero_title {
+        line-height: initial;
+    }
+    .citrus_multivitamin_card {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .citrus_multivitamin_title {
+        font-size: 32px;
+    }
+    .citrus_multivitamin_card_info {
+        width: 586px;
+        font-size: 16px;
+        line-height: 27px;
+    }
+    
+}
+
+
 
 
 /* Universal 320 */
@@ -992,6 +1122,14 @@ img{
         width: 243px;
         margin-bottom: 18px;
     }
+    .citrus_health_and_wellness_terms {
+        padding-bottom: 30px;
+    }
+    /* Taste */
+    .citrus_taste_contents_video iframe {
+        height: 181px;
+        margin-top: -33px;
+    }
 }
 
 /* Daily Multivitamin 375 */
@@ -1011,7 +1149,29 @@ img{
     .citrus_health_and_wellness_content_info{
         margin-bottom: 22px;
     }
+    .citrus_health_and_wellness_terms {
+        padding-bottom: 30px;
+    }
+    /* Taste */
+    .citrus_taste_contents_video iframe {
+        height: 200px;
+    }
+    .citrus_taste_contents_video iframe {
+        margin-top: -52px;
+    }
 }
+
+@media screen and (min-width:376px) and (max-width:425px){
+    .citrus_health_and_wellness_terms {
+        padding: 5%;
+        padding-bottom: 70px;
+    }
+    .citrus_taste_contents_video iframe {
+        height: 238px;
+        margin-top: -90px;
+    }
+}
+
 
 
 
