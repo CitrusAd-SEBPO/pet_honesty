@@ -803,7 +803,7 @@ a{
 @media screen and (min-width:769px) and (max-width:1024px){
     .citrus_desktop_banner{
         /* height: 240px; */
-        height: 250px;
+        height: 325px;
     }
     .citrus_hero_logo img {
         width: 220px;
