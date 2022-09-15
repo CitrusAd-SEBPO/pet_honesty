@@ -28,7 +28,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "PetcoCircularTT-Regular", arial !important;
 }
 
 .citrus_pethonesty_container{
@@ -36,31 +35,27 @@
     margin: 0 auto;
 }
 
-.citurs_caps_button{
-    width: 211px;
-    height: 56px;
-    text-align: center;
+ .citurs_caps_button{
     background-color: #001952;
-    color: #ffffff;
+    text-align: center;
+    color: white;
+    padding: 20px 60px;
     text-transform: uppercase;
-    font-weight: bold;
+    text-decoration: none;
     font-family: "PetcoCircularTT-Bold";
+    font-weight: bold;
     font-size: 16px;
-    line-height: 22px;
+    /* line-height: 22px; */
     border-radius: 7px;
-}
+} 
 
 a{
-    color: #001952;
     text-decoration: underline;
     font-family: "PetcoCircularTT-Bold";
-    font-weight: bold;
     font-size: 16px;
-}
-
-a .citurs_borderless_button{
     color: #001952;
-}
+} 
+
 
 .citrus_pethonesty_wrapper img{
     width: 100%;
@@ -366,6 +361,8 @@ a .citurs_borderless_button{
     flex-direction: row;
     flex-wrap: nowrap;
     padding:  5px;
+    justify-content: center;
+    align-items: center;
 }
 .citrus_taste_container_item{
     width: 100%;
@@ -426,6 +423,9 @@ a .citurs_borderless_button{
 |* Responsive Style Start *|
 --------------------------*/
 @media screen and (max-width:425px) {
+    a {
+        font-size: 11px;
+    }
     /* Desktop Hero Banner */
     .citrus_desktop_banner{
         display: none;
@@ -465,6 +465,9 @@ a .citurs_borderless_button{
     }
 
     /* Ingredients */
+    .citrus_ingredeients_tab_contents{
+        margin-top: 90px;
+    }
     .citrus_ingredeients_tab_contents p {
         margin: 30px 35px;
         font-size: 20px;
@@ -485,6 +488,7 @@ a .citurs_borderless_button{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 80px;
     }
     .citrus_multivitamin_card{
         width: 315px;
@@ -538,8 +542,11 @@ a .citurs_borderless_button{
         justify-content: space-evenly;
     }
     .citrus_ranges_content p {
-        font-size: 16px;
-        line-height: 22px;
+        /* font-size: 16px;
+        line-height: 22px; */
+        font-size: 18px;
+        line-height: 0;
+        margin-top: 90px;
     }
     .citrus_range_card{
         width: 160px;
@@ -555,6 +562,7 @@ a .citurs_borderless_button{
     .citrus_health_and_wellness{
         /* overflow: hidden; */
         padding-bottom: 30px;
+        margin-top: 90px;
     }
     .citrus_health_and_wellness_heading p{
         /* width: 182px; */
@@ -593,7 +601,7 @@ a .citurs_borderless_button{
 
     /* Taste your pet Start */
     .citrus_taste_container{
-        margin-top: 230px;
+        margin-top: 280px;
     }
     .citrus_taste_container_contets {
         padding: 0;
@@ -619,6 +627,11 @@ a .citurs_borderless_button{
         line-height: 22px;
         width: 60%;
         margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .citrus_taste_content_image{
+        width: inherit;
+        margin-top: 15px;
     }
     .citrus_taste_content_image img:first-of-type{
         display: none;
@@ -637,15 +650,17 @@ a .citurs_borderless_button{
 
 @media screen and (min-width:426px) and (max-width:768px) {
     .citrus_desktop_banner{
-        height: 100%;
+        /* height: 100%; */
+        height: 200px;
     }
-    .citurs_caps_button {
+    /* .citurs_caps_button {
         width: 155px;
         height: 45px;
         margin-bottom: 10px;
-    }
+    } */
     .citrus_hero_text_tab{
         margin-left: 20px;
+        margin-top: -40px;
     }
     .citrus_hero_logo img{
         width: 50%;
@@ -655,14 +670,20 @@ a .citurs_borderless_button{
         border: 1px solid#707070;
     }
     .citrus_hero_title {       
-        font-size: 15px;
+        /* font-size: 15px;
         line-height: 16px;
-        margin: 10px 0;
+        margin: 10px 0; */
+        font-size: 16px;
+        line-height: 22px;
+        margin: 5px 0;
     }
     .citrus_hero_info {
-        font-size: 12px;
+        /* font-size: 12px;
         line-height: 16px;
-        margin-bottom: 15px;
+        margin-bottom: 15px; */
+        font-size: 14px;
+        line-height: initial;
+        margin-bottom: 30px;
     }
 
     /* Ingredients */
@@ -736,7 +757,7 @@ a .citurs_borderless_button{
 
     /* Daily Multivitamin */
     .citrus_daily_multivitamin_desktop{
-        height: 100%;
+        height: 200px;
     }
     .citrus_multivitamin_card {
         width: 260px;
@@ -748,9 +769,9 @@ a .citurs_borderless_button{
         width: 260px;
     }
     .citrus_multivitamin_title {
-        font-size: 16px;
+        font-size: 15px;
         line-height: 20px;
-        margin: 3px 0;
+        margin: 5px 0;
     }
     .citrus_multivitamin_card_info{
         width: 260px;
@@ -760,9 +781,9 @@ a .citurs_borderless_button{
         line-height: 16px;
         margin-bottom: 5px;
     }
-    .citrusCapButton{
+    /* .citrusCapButton{
         display: none;
-    }
+    } */
 
     /* Taste */
    .citrus_taste_content_title h3{
@@ -781,14 +802,22 @@ a .citurs_borderless_button{
 
 @media screen and (min-width:769px) and (max-width:1024px){
     .citrus_desktop_banner{
-        height: 100%;
-        background-size: contain;
+        /* height: 100%;
+        background-size: contain; */
+        height: 240px;
+    }
+    .citrus_hero_logo img {
+        width: 220px;
+    }
+    .citrus_hero_text_tab hr {
+        width: 223px;
     }
     .citrus_hero_text_tab hr {
         margin-bottom: 10px;
     }
     .citrus_hero_text_tab{
         margin-left: 45px;
+        margin-top: -35px;
     }
     .citrus_hero_title {
         font-size: 24px;
@@ -798,7 +827,7 @@ a .citurs_borderless_button{
     .citrus_hero_info {
         font-size: 16px;
         line-height: 22px;
-        margin-bottom: 10px;
+        margin-bottom: 40px;
     }
     .citurs_caps_button{
         margin-bottom: 10px;
@@ -1011,6 +1040,9 @@ a .citurs_borderless_button{
         height: 181px;
         margin-top: -33px;
     }
+    .citrus_taste_container {
+        margin-top: 260px;
+    }
 }
 
 /* Daily Multivitamin 375 */
@@ -1130,6 +1162,34 @@ a .citurs_borderless_button{
     }
 }
 
+@media screen and (min-width:1401px) and (max-width:2560px) {
+    /* Taste */
+    .citrus_taste_contents_video iframe {
+        /* width: 100%;
+        margin-top: -60px; */
+        height: 400px;
+        /* width: 600px; */
+    }
+    .citrus_taste_content_title h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .citrus_taste_content_info p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (min-width:2100px) {
+    .citrus_hero_banner {
+        height: 580px;
+    }
+
+    /* Daily Multivitamin */
+    .citrus_daily_multivitamin_desktop {
+        height: 660px;
+    }
+}
 
 
 
