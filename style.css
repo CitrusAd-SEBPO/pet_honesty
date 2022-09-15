@@ -24,10 +24,11 @@
       url(/assets/fonts/PetcoCircularTT-Bold.woff) format("woff");
 }
 
-*{
+.citrus_pethonesty_main{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .citrus_pethonesty_container{
