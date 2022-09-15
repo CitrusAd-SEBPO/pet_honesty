@@ -802,10 +802,12 @@ a{
 
 @media screen and (min-width:769px) and (max-width:1024px){
     .citrus_desktop_banner{
-        height: 240px;
+        /* height: 240px; */
+        height: 250px;
     }
     .citrus_hero_logo img {
         width: 220px;
+        margin-top: 50px;
     }
     .citrus_hero_text_tab hr {
         width: 223px;
