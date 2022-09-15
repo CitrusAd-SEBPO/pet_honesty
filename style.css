@@ -588,7 +588,7 @@ a{
         font-size: 16px;
         line-height: 18px;
         width: 243px;
-        margin-bottom: 25px;
+        margin-bottom: 18px;
     }
     #citrus_EasyToUse_title{
         line-height: 20px;
@@ -647,6 +647,9 @@ a{
 }
 
 @media screen and (min-width:426px) and (max-width:768px) {
+    .citrus_pethonesty_wrapper {
+        overflow: hidden;
+    }
     .citrus_desktop_banner{
         height: 200px;
     }
@@ -947,7 +950,9 @@ a{
     }
     .citrus_daily_multivitamin_desktop{
         background-size: 100%;
+        /* background-size: cover; */
         position: center;
+        /* height: 500px; */
     }
    
     .citrus_multivitamin_card_logo {
@@ -1033,13 +1038,14 @@ a{
     .citrus_health_and_wellness_content_title{
         font-size: 18px;
         line-height: 22px;
-        margin-bottom: 5px;
+        /* margin-bottom: 5px; */
     }    
     .citrus_health_and_wellness_content_info{
         font-size: 16px;
-        line-height: 18px;
+        /* line-height: 18px; */
         width: 243px;
-        margin-bottom: 18px;
+        margin-bottom: 8px;
+    
     }
     .citrus_health_and_wellness_terms {
         padding-bottom: 30px;
@@ -1073,7 +1079,7 @@ a{
         font-size: 20px;
     }    
     .citrus_health_and_wellness_content_info{
-        margin-bottom: 22px;
+        margin-bottom: 15px;
     }
     .citrus_health_and_wellness_terms {
         padding-bottom: 30px;
@@ -1218,7 +1224,11 @@ a{
     }
 }
 
-
+@media screen and (min-width:769px) and (max-width:1440px) {
+    .citrus_hero_logo {
+        margin-top: -40px;
+    }
+}
 
 
 
