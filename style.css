@@ -796,7 +796,8 @@ a{
         height: 192px;
     }
     .citrus_taste_contents_video iframe{
-        margin-top: -70px;
+        /* margin-top: -70px; */
+        margin-top: -110px;
     }
 }
 
