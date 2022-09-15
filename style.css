@@ -28,7 +28,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* overflow: hidden; */
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .citrus_pethonesty_container{
@@ -655,20 +656,23 @@ a{
     }
     .citrus_hero_logo img{
         width: 50%;
+        /* margin-top: 30px; */
     }
-    .citrus_hero_text_tab hr{
+    .citrus_hero_text_tab hr {
         width: 156px;
         border: 1px solid#707070;
+        margin-left: 0px;
     }
     .citrus_hero_title {  
         font-size: 16px;
         line-height: 22px;
-        margin: 5px 0;
+        margin-bottom: 10px;
+        margin-top: -5px;
     }
     .citrus_hero_info {
         font-size: 14px;
         line-height: initial;
-        margin-bottom: 30px;
+        margin-top: -10px;
     }
 
     /* Ingredients */
@@ -775,6 +779,7 @@ a{
         font-size: 13px;
         line-height: 16px;
         margin-bottom: 5px;
+        margin-top: -5px;
     }
 
     /* Taste */
@@ -1007,6 +1012,9 @@ a{
     /* Ranges */
     .citrus_range_row{
         gap: 20px 0;
+    }
+    .citrus_range_card:nth-child(6) .citrus_range_card_body .citrus_range_option_title {
+        min-height: 26px;
     }
     /* Health and Wellness */
     .citrus_health_and_wellness_terms{
