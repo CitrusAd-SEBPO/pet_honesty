@@ -914,6 +914,7 @@ a .citurs_borderless_button{
         background-size: 100%;
         position: center;
     }
+   
     .citrus_multivitamin_card_logo {
         margin-top: 70px;
     } 
@@ -1123,7 +1124,11 @@ a .citurs_borderless_button{
     }
 }
 
-
+@media screen and (min-width:1401px) and (max-width:2500px) {
+    .citrus_multivitamin_card {
+        margin-top: 30px;
+    }
+}
 
 
 
