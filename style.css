@@ -44,7 +44,7 @@
     padding: 20px 60px;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: "PetcoCircularTT-Bold";
+    font-family: "PetcoCircularTT-Bold", arial !important;
     font-weight: bold;
     font-size: 16px;
     border-radius: 7px;
@@ -52,7 +52,7 @@
 
 a{
     text-decoration: underline;
-    font-family: "PetcoCircularTT-Bold";
+    font-family: "PetcoCircularTT-Bold", arial !important;
     font-size: 16px;
     color: #001952;
 } 
@@ -69,6 +69,9 @@ a{
 --------------------------*/
 
 /* Desktop Hero */
+.citrus_pethonesty_POV{
+    display: none;
+}
 .citrus_hero_banner{
     max-width: 100%;
     background-image: url("assets/images/pethonesty_POV_Desktop.png");
@@ -100,14 +103,14 @@ a{
     border: 1px solid#707070;
 }
 .citrus_hero_title{
-    font-family: "PetcoCircularTT-Regular" !important;
+    font-family: "PetcoCircularTT-Regular", arial !important;
     color: black;
     font-size: 30px;
     line-height: initial;
     margin: 20px 0;
 }
 .citrus_hero_info{
-    font-family: "PetcoCircularTT-Regular" !important;
+    font-family: "PetcoCircularTT-Regular", arial !important;
     color: black;
     font-size: 16px;
     line-height: 22px;
@@ -128,7 +131,7 @@ a{
     text-align: center;
     margin-top: 40px;
     margin-bottom: 20px;
-    font-family: "PetcoCircularTT-Bold" !important;
+    font-family: "PetcoCircularTT-Bold", arial !important;
     font-weight: bold;
     font-size: 25px;
     line-height: 32px;
@@ -171,14 +174,14 @@ a{
 .citrus_ingredient_card_title h3{
     font-size: 18px;
     line-height: 22px;
-    font-family: "PetcoCircularTT-Bold" !important;
+    font-family: "PetcoCircularTT-Bold", arial !important;
     font-weight: bold;
     color: black;
     margin: 20px 0;
 }
 .citrus_ingredient_card_info p{
     color: black;
-    font-family: "PetcoCircularTT-Regular" !important;
+    font-family: "PetcoCircularTT-Regular", arial !important;
 }
 /* ----  Ingredients Items Tab End  ---- */
 
@@ -186,6 +189,9 @@ a{
 /*--------------------------- 
 |* Daily Multivitamin Start *|
 ----------------------------*/
+.citrus_pethonesty_multivit{
+    display: none;
+}
 .citrus_daily_multivitamin_desktop{
     background-image: url("assets/images/pethonesty_multivitamin_Bg.png");
     background-repeat: no-repeat;
@@ -216,7 +222,7 @@ a{
     margin-top: 70px;
 }
 .citrus_multivitamin_title{
-    font-family: "PetcoCircularTT-Bold" !important;
+    font-family: "PetcoCircularTT-Bold", arial !important;
     font-size: 25px;
     font-weight: bold;
     line-height: 32px;
@@ -225,7 +231,7 @@ a{
 .citrus_multivitamin_card_info{
     width: 463px;
     height: 50px;
-    font-family: "PetcoCircularTT-Regular" !important;
+    font-family: "PetcoCircularTT-Regular", arial !important;
     font-size: 16px;
     line-height: 22px;
     margin-bottom: 30px;
@@ -263,7 +269,7 @@ a{
     padding: 5%;
 }
 .citrus_ranges_content p{
-    font-family: "PetcoCircularTT-Bold" !important;
+    font-family: "PetcoCircularTT-Bold", arial !important;
     font-weight: bold;
     font-size: 25px;
     line-height: 32px;
@@ -286,7 +292,7 @@ a{
     text-align: center;
 }
 .citrus_range_option_title{
-    font-family: "PetcoCircularTT-Bold" !important;
+    font-family: "PetcoCircularTT-Bold", arial !important;
     font-weight: bold;
     font-size: 20px;
     line-height: 25px;
@@ -302,7 +308,7 @@ a{
     width: 100%;
 }
 .citrus_health_and_wellness_heading p{
-    font-family: "PetcoCircularTT-Bold" !important;
+    font-family: "PetcoCircularTT-Bold", arial !important;
     font-weight: bold;
     font-size: 25px;
     line-height: 32px;
@@ -331,7 +337,7 @@ a{
     max-width: 100%;
 }
 .citrus_health_and_wellness_content_title{
-    font-family: "PetcoCircularTT-Bold" !important;
+    font-family: "PetcoCircularTT-Bold", arial !important;
     font-weight: bold;
     font-size: 25px;
     line-height: 30px;
@@ -339,7 +345,7 @@ a{
     margin-top: 0;
 }
 .citrus_health_and_wellness_content_info{
-    font-family: "PetcoCircularTT-Regular" !important;
+    font-family: "PetcoCircularTT-Regular", arial !important;
     font-size: 18px;
     line-height: 18px;
     margin-bottom: 60px;
@@ -386,12 +392,12 @@ a{
     width: 100%;
 }
 .citrus_taste_content_title h3{
-    font-family: "PetcoCircularTT-Bold" !important;
+    font-family: "PetcoCircularTT-Bold", arial !important;
     font-size: 22px;
     line-height: 32px;
 }
 .citrus_taste_content_info p{
-    font-family: "PetcoCircularTT-Regular" !important;
+    font-family: "PetcoCircularTT-Regular", arial !important;
     font-size: 16px;
     line-height: 22px;
 }
@@ -586,13 +592,13 @@ a{
         max-width: 100%;
     }
     .citrus_health_and_wellness_content_title{
-        font-family: "PetcoCircularTT-Bold";
+        font-family: "PetcoCircularTT-Bold", arial !important;
         font-size: 22px;
         line-height: 25px;
         margin-bottom: 5px;
     }    
     .citrus_health_and_wellness_content_info{
-        font-family: "PetcoCircularTT-Regular";
+        font-family: "PetcoCircularTT-Regular", arial !important;
         font-size: 16px;
         line-height: 18px;
         width: 243px;
