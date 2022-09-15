@@ -427,6 +427,9 @@ a{
     a {
         font-size: 11px;
     }
+    .citrus_hero_text a, .citrus_multivitamin_card_body a{
+        font-size: 16px;
+    }
     /* Desktop Hero Banner */
     .citrus_desktop_banner{
         display: none;
@@ -466,12 +469,15 @@ a{
 
     /* Ingredients */
     .citrus_ingredeients_tab_contents{
-        margin-top: 90px;
+        margin-top: 60px;
     }
     .citrus_ingredeients_tab_contents p {
         margin: 30px 35px;
         font-size: 20px;
         line-height: 22px;
+    }
+    .citrus_ingredients_item {
+        margin-bottom: 0;
     }
 
     /* Daily Multivitamin */
@@ -488,7 +494,7 @@ a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 80px;
+        margin-top: 60px;
     }
     .citrus_multivitamin_card{
         width: 315px;
@@ -542,9 +548,9 @@ a{
         justify-content: space-evenly;
     }
     .citrus_ranges_content p {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 0;
-        margin-top: 90px;
+        margin-top: 70px;
     }
     .citrus_range_card {
         width: 40%;
@@ -566,9 +572,11 @@ a{
     }
     .citrus_health_and_wellness_heading p{
         padding: 0 11%;
-        font-size: 20x;
+        font-size: 20px;
         line-height: 22px;
-        margin-bottom: 35px;
+        padding-bottom: 35px;
+        width: 182px;
+        margin: auto;
     }
     .citrus_health_and_wellness_terms{
         padding: 5%;
