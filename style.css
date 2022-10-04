@@ -398,11 +398,13 @@ a{
 .citrus_taste_content_title h3{
     font-family: "PetcoCircularTT-Bold", arial !important;
     font-size: 22px;
-    line-height: 32px;
+    line-height: initial !important;
 }
 .citrus_taste_content_info p{
     font-family: "PetcoCircularTT-Regular", arial !important;
     font-size: 16px;
+    line-height: initial !important;
+    padding-top: 10px;
 }
 #tasteOder1{
     order: 1;
@@ -1240,7 +1242,7 @@ a{
     .citrus_taste_content_title h3 {
         font-size: 24px;
         margin: 12px 0;
-        line-height: initial;
+        /* line-height: initial; */
     }
     .citrus_taste_content_info p {
         font-size: 22px;
@@ -1377,11 +1379,10 @@ a{
 @media screen and (min-width:1025px) and (max-width:1400px) {
     .citrus_taste_content_title h3 {
         font-size: 16px;
-        line-height: 0;
+        /* line-height: 0; */
     }
     .citrus_taste_content_info p {
         font-size: 14px;
-        line-height: 0;
         margin-bottom: 20px;
     }
     .citrus_taste_contents_video iframe {
